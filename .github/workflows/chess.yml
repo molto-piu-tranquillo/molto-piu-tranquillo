@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: vsnthdev/chess-action@master
+      - uses: felipe-antunes/chess-readme-action@master
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           identifier: "my-chess-game"
